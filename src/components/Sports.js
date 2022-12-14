@@ -101,7 +101,7 @@ const Sport = (props) => {
     <div className="allSports">
       <div className="sportsCard">
         <div className="cardImage">
-          <img style={{maxWidth: '700px', heigth: 'auto', border: '5px solid white'}} className="sportImage" src={props.sport.image} alt="" />
+          <img  style={{ width: '80vw',heigth: 'auto', border: '5px solid white'}} className="sportImage img-fluid" src={props.sport.image} alt="" />
         </div>
         <div>
           <div style={{marginTop: '25px', fontSize: '25px', color: 'white'}} className="text-heading">{props.sport.title}</div>

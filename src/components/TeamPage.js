@@ -20,14 +20,14 @@ export default class TeamPage extends Component {
 						<div className="border"></div>
 					</div>
 				</div>
-
+    </div></div>
 				<div className="container text-center" >
-  <div className="row">
-    <div className="card col-sm-12" style={{width: '30%', marginTop: '10%', marginBottom: '10%', marginRight: '3%', backgroundColor: 'antiqueWhite'}}>
+  <div className="row" style={{justifyContent:"center", margin:"auto"}}>
+    <div className="card col-md-3 mx-2" style={{ marginTop: '10%', marginBottom: '10%',  backgroundColor: 'antiqueWhite'}}>
       
       <div className="container">
       <p></p>
-		<img src={Alexis} height={300} width={300}  alt="Alexis"  style={{borderRadius: '50%', border: '3px solid #473636'}} />
+		<img src={Alexis} height={300} width={300}  alt="Alexis"  style={{borderRadius: '50%', border: '3px solid #473636'}} className="img-fluid" />
         <h2>Alexis Flowers</h2>
         <p class="title">Web Developer</p>
         <p>Kable Academy <br /> Web Development <br /> Fall '22</p>
@@ -38,11 +38,11 @@ export default class TeamPage extends Component {
   
 
   
-    <div className="card col-sm-12" style={{width: '30%', marginTop: '10%', marginBottom: '10%', backgroundColor: 'antiqueWhite'}}>
+    <div className="card col-md-3 mx-2" style={{ marginTop: '10%', marginBottom: '10%', backgroundColor: 'antiqueWhite'}}>
       
       <div className="container">
       <p></p>
-	  <img src={Kirk} height={300} width={300}  alt="Kirk"  style={{borderRadius: '50%', border: '3px solid #473636'}} />
+	  <img src={Kirk} height={300} width={300}  alt="Kirk"  style={{borderRadius: '50%', border: '3px solid #473636'}} className="img-fluid" />
 	  <h2>Kirk Springs</h2>
         <p className="title">Web Developer</p>
         <p>Kable Academy  <br />Web Development <br /> Fall '22</p>
@@ -51,11 +51,11 @@ export default class TeamPage extends Component {
       </div>
     </div>
   
-    <div className="card col-sm-12" style={{width: '30%', marginTop: '10%', marginBottom: '10%', marginLeft: '3%', backgroundColor: 'antiqueWhite'}}>
+    <div className="card col-md-3 mx-2" style={{ marginTop: '10%', marginBottom: '10%',  backgroundColor: 'antiqueWhite'}}>
       
       <div className="container">
       <p></p>
-      <img src={Jason} height={300} width={300} alt="Jason" style={{borderRadius: '50%', border: '3px solid #473636'}} />
+      <img src={Jason} height={300} width={300} alt="Jason" style={{borderRadius: '50%', border: '3px solid #473636'}} className="img-fluid" />
         <h2>Jason Donley</h2>
         <p className="title">Web-Developer/Designer</p>
         <p>Kable Academy  <br />Web Development <br /> Fall '22</p>
@@ -71,9 +71,7 @@ export default class TeamPage extends Component {
 
 				
 				
-				</div>
-			</div> 
-
+		
 
 
       
