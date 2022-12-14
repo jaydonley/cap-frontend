@@ -74,12 +74,17 @@ function navbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link to="/">Home</Nav.Link>
-            <Nav.Link to="/CultureHistory">Culture & History</Nav.Link>
-            <Nav.Link to="/Attractions">Attractions</Nav.Link>
-            <Nav.Link to="/Sports">Sports Venues</Nav.Link>
-            <Nav.Link to="/Contact">Contact Us</Nav.Link>
-            <Nav.Link to="/teamPage">Our Team</Nav.Link>
+          <Link>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Seal_of_the_City_of_Cincinnati_%28Ohio%29.png/1200px-Seal_of_the_City_of_Cincinnati_%28Ohio%29.png"  id="logoSize"  alt="Seal of Cincinnati" height={100}/></Link>
+           
+
+
+            <Link to="/">Home</Link>
+            <Link to="/CultureHistory">Culture & History</Link>
+            <Link to="/Attractions">Attractions</Link>
+            <Link to="/Sports">Sports Venues</Link>
+            <Link to="/Contact">Contact Us</Link>
+            <Link to="/teamPage">Our Team</Link>
             
              
           </Nav>
