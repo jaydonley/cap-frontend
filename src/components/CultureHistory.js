@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import reds from "../images/reds.png"
 import findlay_facts from "../images/findlay facts.png"
 import findlay_market from "../images/findlay market.jpg"
@@ -90,33 +91,32 @@ class CultureHistory extends Component {
   <div class="container">
     <div class="navbar-header w-100">
       <nav class="navbar navbar-expand-lg navbar-dark px-0">
-        
-      
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar01" 
+       
+        <button style={{color: 'darkblue'}} class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar01" 
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span  style={{color: 'darkblue'}}  class="navbar-toggler-icon"></span>
         </button>
   
         <div class="collapse navbar-collapse" id="navbar01">
           <ul class="navbar-nav navigation-menu ml-auto">
             <li class="nav-item" >
-              <a style={{color: '#262629'}} class="nav-link" href="./">Home</a>
+              <Link style={{color: '#262629'}} class="nav-link" href="/">Home</Link>
             </li>
 
             <li class="nav-item">
-              <a style={{color: '#262629'}} class="nav-link" href="./CultureHistory">Culture & History</a>
+              <Link style={{color: '#262629'}} class="nav-link" href="/CultureHistory">Culture & History</Link>
             </li>
             <li class="nav-item">
-              <a style={{color: '#262629'}} class="nav-link" href="./Attractions">Attractions</a>
+              <Link style={{color: '#262629'}} class="nav-link" href="/Attractions">Attractions</Link>
             </li>
             <li class="nav-item">
-              <a style={{color: '#262629'}} class="nav-link" href="./Sports">Sport Venues</a>
+              <Link style={{color: '#262629'}} class="nav-link" href="/Sports">Sport Venues</Link>
             </li>
             <li class="nav-item">
-              <a style={{color: '#262629'}} class="nav-link" href="./Contact">Contact</a>
+              <Link style={{color: '#262629'}} class="nav-link" href="/Contact">Contact</Link>
             </li>
             <li class="nav-item">
-              <a style={{color: '#262629'}} class="nav-link" href="./teamPage">Team</a>
+              <Link style={{color: '#262629'}} class="nav-link" href="/teamPage">Team</Link>
             </li>
           </ul>
         </div>

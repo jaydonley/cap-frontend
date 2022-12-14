@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
-import redsImage from '../images/reds.jpg'
-import icecream from '../images/icecream.jpg'
-import bengals from '../images/bengals.jpg'
-import chili_1920 from '../images/chili_1920.webp'
-import fc from '../images/fc.jpg'
-import vangogh from '../images/vangogh.jpg'
-import artcenter from '../images/artcenter.jpg'
-import playhouse from '../images/playhouse.jpg'
-import union from '../images/union.jpg'
-import pizza from '../images/pizza.jpg'
+import { Link } from 'react-router-dom';
+import redsImage from '../images/reds.jpg';
+import icecream from '../images/icecream.jpg';
+import bengals from '../images/bengals.jpg';
+import chili_1920 from '../images/chili_1920.webp';
+import fc from '../images/fc.jpg';
+import vangogh from '../images/vangogh.jpg';
+import artcenter from '../images/artcenter.jpg';
+import playhouse from '../images/playhouse.jpg';
+import union from '../images/union.jpg';
+import pizza from '../images/pizza.jpg';
 
  
 class Attractions extends Component {
@@ -160,34 +161,33 @@ class Attractions extends Component {
                 <header id="navigation" class="navigation sticky">
   <div class="container">
     <div class="navbar-header w-100">
-      <nav class="navbar navbar-expand-lg navbar-dark px-0">
-        
-      
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar01" 
+      <nav class="navbar navbar-expand-lg navbar-dark px-0">       
+  
+        <button style={{color: 'darkblue'}} class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar01" 
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span  style={{color: 'darkblue'}}  class="navbar-toggler-icon"></span>
         </button>
   
         <div class="collapse navbar-collapse" id="navbar01">
           <ul class="navbar-nav navigation-menu ml-auto">
             <li class="nav-item" >
-              <a style={{color: '#262629'}} class="nav-link" href="./">Home</a>
+              <Link style={{color: '#262629'}} class="nav-link" href="/">Home</Link>
             </li>
 
             <li class="nav-item">
-              <a style={{color: '#262629'}} class="nav-link" href="./CultureHistory">Culture & History</a>
+              <Link style={{color: '#262629'}} class="nav-link" href="/CultureHistory">Culture & History</Link>
             </li>
             <li class="nav-item">
-              <a style={{color: '#262629'}} class="nav-link" href="./Attractions">Attractions</a>
+              <Link style={{color: '#262629'}} class="nav-link" href="/Attractions">Attractions</Link>
             </li>
             <li class="nav-item">
-              <a style={{color: '#262629'}} class="nav-link" href="./Sports">Sport Venues</a>
+              <Link style={{color: '#262629'}} class="nav-link" href="/Sports">Sport Venues</Link>
             </li>
             <li class="nav-item">
-              <a style={{color: '#262629'}} class="nav-link" href="./Contact">Contact</a>
+              <Link style={{color: '#262629'}} class="nav-link" href="/Contact">Contact</Link>
             </li>
             <li class="nav-item">
-              <a style={{color: '#262629'}} class="nav-link" href="./teamPage">Team</a>
+              <Link style={{color: '#262629'}} class="nav-link" href="/teamPage">Team</Link>
             </li>
           </ul>
         </div>
