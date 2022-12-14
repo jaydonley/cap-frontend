@@ -5,7 +5,7 @@ class navbar extends Component {
     render() {
         return (
 
-<header id="navigation" class="navigation sticky">
+<header id="navigation" class="navigation">
   <div class="container">
     <div class="navbar-header w-100">
       <nav class="navbar navbar-expand-lg navbar-dark px-0">
