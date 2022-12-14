@@ -128,7 +128,7 @@ export default class Sports extends Component {
     };
   }
   componentDidMount() {
-    axios.get("http://localhost:5000/sports")
+    axios.get("https://cap-backend-4spn.onrender.com/")
     .then(response => {
       this.setState({
         sports: response.data,
