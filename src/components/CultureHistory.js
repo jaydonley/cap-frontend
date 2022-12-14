@@ -92,26 +92,31 @@ class CultureHistory extends Component {
     <div class="navbar-header w-100">
       <nav class="navbar navbar-expand-lg navbar-dark px-0">
        
+        <button style={{color: 'darkblue'}} class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar01" 
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span  style={{color: 'darkblue'}}  class="navbar-toggler-icon"></span>
+        </button>
+  
         <div class="collapse navbar-collapse" id="navbar01">
           <ul class="navbar-nav navigation-menu ml-auto">
             <li class="nav-item" >
-              <Link style={{color: '#262629'}} class="nav-link" href="/">Home</Link>
+              <Link style={{color: '#262629'}} class="nav-link" to="/">Home</Link>
             </li>
 
             <li class="nav-item">
-              <Link style={{color: '#262629'}} class="nav-link" href="/CultureHistory">Culture & History</Link>
+              <Link style={{color: '#262629'}} class="nav-link" to="/CultureHistory">Culture & History</Link>
             </li>
             <li class="nav-item">
-              <Link style={{color: '#262629'}} class="nav-link" href="/Attractions">Attractions</Link>
+              <Link style={{color: '#262629'}} class="nav-link" to="/Attractions">Attractions</Link>
             </li>
             <li class="nav-item">
-              <Link style={{color: '#262629'}} class="nav-link" href="/Sports">Sport Venues</Link>
+              <Link style={{color: '#262629'}} class="nav-link" to="/Sports">Sport Venues</Link>
             </li>
             <li class="nav-item">
-              <Link style={{color: '#262629'}} class="nav-link" href="/Contact">Contact</Link>
+              <Link style={{color: '#262629'}} class="nav-link" to="/Contact">Contact</Link>
             </li>
             <li class="nav-item">
-              <Link style={{color: '#262629'}} class="nav-link" href="/teamPage">Team</Link>
+              <Link style={{color: '#262629'}} class="nav-link" to="/teamPage">Team</Link>
             </li>
           </ul>
         </div>
