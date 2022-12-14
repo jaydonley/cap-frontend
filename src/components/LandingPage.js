@@ -16,7 +16,7 @@ class LandingPage extends Component {
         <h2 style={{color: '#262629', fontSize: '50px'}}>Where You Belong</h2>
         <div style={{marginTop: '5%', marginLeft: '10%', marginRight: '10%'}}>
          <p id='landingP' style={{color: 'white', fontSize: '20px',}}>There’s something inviting about the Cincy Region. Here, Midwest friendliness meets Southern charm. This is where a vibrant urban setting gives way to green spaces and waterways. You can sample our world-famous Cincinnati chili or indulge in innovative, buzzworthy local cuisine. Marvel at cutting-edge street art or travel Northern Kentucky's bourbon trail. Discover a region that reveres history yet pursues constant reinvention. Cincy Culture isn't just one thing. But you have to be here to experience it for yourself.</p></div>
-         <a href="/CultureHistory" class="btn btn-transparent smooth-scroll letsExplore landingButton"  style={{fontSize: '25px'}} >Let's Explore</a>
+         <Link to="/CultureHistory" class="btn btn-transparent smooth-scroll letsExplore landingButton"  style={{fontSize: '25px'}} >Let's Explore</Link>
      </div>
  
      <div>
@@ -131,7 +131,7 @@ class LandingPage extends Component {
 				<p style={{color: 'black', fontSize: '20px'}} id="homeBottomP">Start off your day with a stop on the doughnut trail or brunching on the local favorite sausage and oat dish, goetta. Then, there are rock climbing gyms, Top Golf, go-karting tracks, and public parks with biking and hiking trails—endless ways to fill your day with a uniquely Cincy excursion. In the evening, dine at one of our renowned restaurants, or sample locally brewed beer and locally distilled bourbon and spirits. 
 
 					Whether you’re traveling with little ones or big kids–you’re sure to create unforgettable family memories in Cincy.</p>
-				<a href="/Attractions" class="btn btn-main" style={{fontSize: '25px'}} id="tourButton">Take a Tour with Us</a>
+				<Link to="/Attractions" class="btn btn-main" style={{fontSize: '25px'}} id="tourButton">Take a Tour with Us</Link>
 			</div>
 		</div> 
 	</div>
