@@ -138,12 +138,7 @@ class LandingPage extends Component {
 </section>
 
 
-<header id="navigation" class="navigation sticky">
-  <div class="container">
-    <div class="navbar-header w-100">
-      <nav class="navbar navbar-expand-lg navbar-dark px-0">
-     
-        <div class="collapse navbar-collapse" id="navbar01">
+<div class="collapse navbar-collapse" id="navbar01">
           <ul class="navbar-nav navigation-menu ml-auto">
             <li class="nav-item" >
               <Link style={{color: '#262629'}} class="nav-link" to="/">Home</Link>
@@ -166,10 +161,6 @@ class LandingPage extends Component {
             </li>
           </ul>
         </div>
-      </nav>
-    </div>
-  </div>
-  </header>
 
 
 </section>
