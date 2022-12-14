@@ -79,12 +79,12 @@ function navbar() {
            
 
 
-            <Link to="/">Home</Link>
-            <Link to="/CultureHistory">Culture & History</Link>
-            <Link to="/Attractions">Attractions</Link>
-            <Link to="/Sports">Sports Venues</Link>
-            <Link to="/Contact">Contact Us</Link>
-            <Link to="/teamPage">Our Team</Link>
+            <Link style={{margin: '10px'}} to="/">Home</Link>
+            <Link style={{margin: '10px'}} to="/CultureHistory">Culture & History</Link>
+            <Link style={{margin: '10px'}} to="/Attractions">Attractions</Link>
+            <Link style={{margin: '10px'}} to="/Sports">Sports Venues</Link>
+            <Link style={{margin: '10px'}} to="/Contact">Contact Us</Link>
+            <Link style={{margin: '10px'}} to="/teamPage">Our Team</Link>
             
              
           </Nav>
