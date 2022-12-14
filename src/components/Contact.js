@@ -72,7 +72,11 @@ class Contact extends Component {
   <div class="container">
     <div class="navbar-header w-100">
       <nav class="navbar navbar-expand-lg navbar-dark px-0">
-    
+        
+          
+          
+        
+  
         <button style={{color: 'darkblue'}} class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar01" 
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span  style={{color: 'darkblue'}}  class="navbar-toggler-icon"></span>
