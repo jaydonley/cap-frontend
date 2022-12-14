@@ -74,17 +74,17 @@ function navbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-          <Link>
+          <Link to="/">
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Seal_of_the_City_of_Cincinnati_%28Ohio%29.png/1200px-Seal_of_the_City_of_Cincinnati_%28Ohio%29.png"  id="logoSize"  alt="Seal of Cincinnati" height={100}/></Link>
            
 
 
-            <Link style={{marginTop: '50px', marginRight: '35px', marginLeft: '20px'}} to="/">Home</Link>
-            <Link style={{marginTop: '50px', marginRight: '35px'}} to="/CultureHistory">Culture & History</Link>
-            <Link style={{marginTop: '50px', marginRight: '35px'}} to="/Attractions">Attractions</Link>
-            <Link style={{marginTop: '50px', marginRight: '35px'}} to="/Sports">Sports Venues</Link>
-            <Link style={{marginTop: '50px', marginRight: '35px'}} to="/Contact">Contact Us</Link>
-            <Link style={{marginTop: '50px', marginRight: '35px'}} to="/teamPage">Our Team</Link>
+            <Link style={{marginTop: '40px', marginRight: '35px', marginLeft: '20px'}} to="/">Home</Link>
+            <Link style={{marginTop: '40px', marginRight: '35px'}} to="/CultureHistory">Culture & History</Link>
+            <Link style={{marginTop: '40px', marginRight: '35px'}} to="/Attractions">Attractions</Link>
+            <Link style={{marginTop: '40px', marginRight: '35px'}} to="/Sports">Sports Venues</Link>
+            <Link style={{marginTop: '40px', marginRight: '35px'}} to="/Contact">Contact Us</Link>
+            <Link style={{marginTop: '40px', marginRight: '35px'}} to="/teamPage">Our Team</Link>
             
              
           </Nav>
