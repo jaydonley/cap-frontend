@@ -23,9 +23,9 @@ export default class TeamPage extends Component {
 
 				<div className="container text-center" >
   <div className="row">
-    <div className="card" style={{width: '30%', marginTop: '10%', marginBottom: '10%', marginRight: '3%', backgroundColor: 'antiqueWhite'}}>
+    <div className="card col-sm-12" style={{width: '30%', marginTop: '10%', marginBottom: '10%', marginRight: '3%', backgroundColor: 'antiqueWhite'}}>
       
-      <div className="container col-sm-12">
+      <div className="container">
       <p></p>
 		<img src={Alexis} height={300} width={300}  alt="Alexis"  style={{borderRadius: '50%', border: '3px solid #473636'}} />
         <h2>Alexis Flowers</h2>
@@ -38,9 +38,9 @@ export default class TeamPage extends Component {
   
 
   
-    <div className="card" style={{width: '30%', marginTop: '10%', marginBottom: '10%', backgroundColor: 'antiqueWhite'}}>
+    <div className="card col-sm-12" style={{width: '30%', marginTop: '10%', marginBottom: '10%', backgroundColor: 'antiqueWhite'}}>
       
-      <div className="container col-sm-12">
+      <div className="container">
       <p></p>
 	  <img src={Kirk} height={300} width={300}  alt="Kirk"  style={{borderRadius: '50%', border: '3px solid #473636'}} />
 	  <h2>Kirk Springs</h2>
@@ -51,9 +51,9 @@ export default class TeamPage extends Component {
       </div>
     </div>
   
-    <div className="card" style={{width: '30%', marginTop: '10%', marginBottom: '10%', marginLeft: '3%', backgroundColor: 'antiqueWhite'}}>
+    <div className="card col-sm-12" style={{width: '30%', marginTop: '10%', marginBottom: '10%', marginLeft: '3%', backgroundColor: 'antiqueWhite'}}>
       
-      <div className="container col-sm-12">
+      <div className="container">
       <p></p>
       <img src={Jason} height={300} width={300} alt="Jason" style={{borderRadius: '50%', border: '3px solid #473636'}} />
         <h2>Jason Donley</h2>
