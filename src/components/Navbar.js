@@ -70,15 +70,16 @@ function navbar() {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand  href="/"></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link1</Nav.Link>
-            <Nav.Link href="#link">Link2</Nav.Link>
-            <Nav.Link href="#link">Link3</Nav.Link>
-            <Nav.Link href="#link">Link4</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/CultureHistory">Culture & History</Nav.Link>
+            <Nav.Link href="/Attractions">Attractions</Nav.Link>
+            <Nav.Link href="/Sports">Sports Venues</Nav.Link>
+            <Nav.Link href="/Contact">Contact Us</Nav.Link>
+            <Nav.Link href="/teamPage">Our Team</Nav.Link>
             
              
           </Nav>
