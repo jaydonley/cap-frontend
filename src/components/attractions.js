@@ -42,7 +42,7 @@ class Attractions extends Component {
                 <div class="row mx-auto ">
                     <div class="filtr-item col-lg-4 col-md-6" data-category="sports">
                         <div class="portfolio-block"  >
-                            <img src={redsImage} alt="reds"/>
+                            <img src={redsImage} alt="reds" className='img-fluid'/>
                             <div class="caption">
                                 {/* <img class="search-icon image-popup" data-effect="mfp-with-zoom" src="./images/reds.jpg"
                                     data-lightbox="image-1" /> */}
@@ -55,7 +55,7 @@ class Attractions extends Component {
                     </div>
                     <div class="filtr-item col-lg-4 col-md-6" data-category="sports">
                         <div class="portfolio-block">
-                            <img src={bengals} alt="bengals football team"/>
+                            <img src={bengals} alt="bengals football team"  className='img-fluid'/>
                             <div class="caption">
                                 {/* <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/bengals.jpg"
                                     data-lightbox="image-1">
@@ -68,7 +68,7 @@ class Attractions extends Component {
                     </div>
                      <div class="filtr-item col-lg-4 col-md-6" data-category="sports">
                         <div class="portfolio-block">
-                            <img src={fc} alt="fc football"/>
+                            <img src={fc} alt="fc football"  className='img-fluid'/>
                             <div class="caption">
                                
                                 <h4>FC Cincinnati</h4>
@@ -78,7 +78,7 @@ class Attractions extends Component {
                     </div>
                     <div class="filtr-item col-lg-4 col-md-6" data-category="art">
                         <div class="portfolio-block">
-                            <img src={vangogh} alt="Van Gogh Art Museum"/>
+                            <img src={vangogh} alt="Van Gogh Art Museum"  className='img-fluid'/>
                             <div class="caption">
                                 {/* <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/vangogh.jpg"
                                     data-lightbox="image-1">
@@ -91,7 +91,7 @@ class Attractions extends Component {
                     </div>
                     <div class="filtr-item col-lg-4 col-md-6" data-category="art">
                         <div class="portfolio-block">
-                            <img src={artcenter} alt="art center"/>
+                            <img src={artcenter} alt="art center" className='img-fluid'/>
                             <div class="caption">
                                 {/* <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/artcenter.jpg"
                                     data-lightbox="image-1">
@@ -104,7 +104,7 @@ class Attractions extends Component {
                     </div> 
                     <div class="filtr-item col-lg-4 col-md-6" data-category="art">
                         <div class="portfolio-block">
-                            <img src={playhouse} alt="playhouse"/>
+                            <img src={playhouse} alt="playhouse" className='img-fluid'/>
                             <div class="caption">
                                 {/* <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/playhouse.jpg"
                                     data-lightbox="image-1">
@@ -117,7 +117,7 @@ class Attractions extends Component {
                     </div>
                     <div class="filtr-item col-lg-4 col-md-6" data-category="design">
                         <div class="portfolio-block">
-                            <img src={union} alt="union terminal"/>
+                            <img src={union} alt="union terminal" className='img-fluid'/>
                             <div class="caption">
                                 {/* <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/union.jpg"
                                     data-lightbox="image-1">
@@ -130,7 +130,7 @@ class Attractions extends Component {
                     </div>
                     <div class="filtr-item col-lg-4 col-md-6" data-category="food">
                         <div class="portfolio-block">
-                            <img src={icecream} alt="greaters icecream"/>
+                            <img src={icecream} alt="greaters icecream" className='img-fluid'/>
                             <div class="caption">
                                 {/* <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/icecream.jpg"
                                     data-lightbox="image-1">
@@ -144,7 +144,7 @@ class Attractions extends Component {
                     </div>
                     <div class="filtr-item col-lg-4 col-md-6" data-category="food">
                         <div class="portfolio-block">
-                            <img src={pizza}alt="la'rosa's pizza"/>
+                            <img src={pizza}alt="la'rosa's pizza" className='img-fluid'/>
                             <div class="caption">
                                 {/* <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/pizza.jpg"
                                     data-lightbox="image-1">

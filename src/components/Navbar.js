@@ -68,7 +68,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function navbar() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar class='mainNav' bg="light" expand="lg">
       <Container>
         <Navbar.Brand  to="/"></Navbar.Brand>          
         <Link to="/">
